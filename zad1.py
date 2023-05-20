@@ -12,7 +12,7 @@ def caesarCipher(stringToEncode):
                 encodedString += lowercase[(lowercase.index(letter) + shiftParameter) % 26]
             else:
                 encodedString += uppercase[(uppercase.index(letter) + shiftParameter) % 26]
-                return encodedString
+        return encodedString
 
     except ValueError:
         print('Podany ciąg znaków nie był liczbą całkowitą')
@@ -52,19 +52,20 @@ def columnCipher(stringToEncode):
 
 def runCipherScript(stringToEncode):
     if(stringToEncode.isalpha()):
-        choice = input("Run: \n\t1 -> Column Cipher\n\t2 -> Caesar's Cipher\nYour choice: ")
+        choice = input("Run: \n\t1 -> Szyfr Kolumnowy\n\t2 -> Szyfr Cezara\nTwój wybór: ")
         match choice:
             case '1':
-                print(caesarCipher(stringToEncode))
+                print('Twój zakodowany ciąg to: ' + columnCipher(stringToEncode))
             case '2':
-                print(columnCipher(stringToEncode))
+                print('Twój zakodowany ciąg to: ' + caesarCipher(stringToEncode))
+
             case _:
-                print('Your choice was incorrect.')
+                print('Twój wybór był nieprawidłowy')
     else:
-        print("String to encode isn't correct. StringToEncode must only contain letters")
+        print("Ciąg znaków był nieprawidłowy. StringToEncode musi zawierać tylko litery alfabetu (bez polskich znaków specjalnych)")
 
 
 if __name__ == '__main__':
-    # print('Witaj w zaszyfrowaczu słów!', end='\n\n')
+    print('Witaj w zaszyfrowaczu słów!', end='\n\n')
     stringToEncode = input('Podaj ciąg znaków do zakodowania (Nie używaj polskich znaków bo je pominie): ')
-    print(columnCipher(stringToEncode.upper()))
+    runCipherScript(stringToEncode)
