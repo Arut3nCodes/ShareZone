@@ -1,0 +1,4 @@
+﻿  CNodeDynamic.cpp
+C:\Users\jakub\source\repos\TEP3\TEP3\CNodeDynamic.cpp(14,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jakub\source\repos\TEP3\TEP3\CNodeDynamic.cpp(36,22): warning C4018: '>': signed/unsigned mismatch
+  TEP3.vcxproj -> C:\Users\jakub\source\repos\TEP3\Debug\TEP3.exe

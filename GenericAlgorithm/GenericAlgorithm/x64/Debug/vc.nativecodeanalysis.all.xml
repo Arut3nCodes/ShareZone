@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jakub\Desktop\GenericAlgorithm\GenericAlgorithm\</FILEPATH>
+      <FILENAME>GeneticAlgorithm.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GeneticAlgorithm::population' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GeneticAlgorithm::{ctor}</FUNCTION>
+    <DECORATED>??0GeneticAlgorithm@@QEAA@HHNN@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GeneticAlgorithm::population</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,17 @@
+﻿  GeneticAlgorithm.cpp
+C:\Users\jakub\Desktop\GenericAlgorithm\GenericAlgorithm\GeneticAlgorithm.cpp(43,68): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Individual.cpp
+C:\Users\jakub\Desktop\GenericAlgorithm\GenericAlgorithm\Individual.cpp(50,60): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  KnapsackProblem.cpp
+C:\Users\jakub\Desktop\GenericAlgorithm\GenericAlgorithm\KnapsackProblem.cpp(27,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
+  GenericAlgorithm.vcxproj -> C:\Users\jakub\Desktop\GenericAlgorithm\x64\Debug\GenericAlgorithm.exe
